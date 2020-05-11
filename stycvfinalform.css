@@ -1,0 +1,175 @@
+@font-face 
+{
+    font-family: 'police';
+    src: url('police.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body 
+{
+    border: 3px solid black; 
+    display:flex;
+    margin-left:20%;
+    margin-right: 20%;
+    padding:0;
+    font-family: 'police' , Arial , sans-serif; 
+    
+}
+
+
+                        /* Partie de gauche */
+
+
+ aside#liseret
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	width: 25%;
+    height: 1080px; 
+	background-color: #FFC400;
+}
+
+aside#liseret>div.phot
+{
+  margin-top: 25%;
+  margin-left: 25%;
+  
+}
+
+.contact , .apropos , .loisirs
+{
+    
+    text-align: center;
+    color: #FFC400 ;
+    background-color: #424242 ;
+}
+
+
+.description
+{
+
+    overflow-wrap: break-word;
+}
+
+.ballon , .manette , .golf
+{
+    height: 65px;
+    width: 65px;
+}
+
+
+.picto
+{
+    /* border: 1px solid black;  */
+    height: 80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+                            /* partie de droite */
+
+main#contenu 
+{           
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */        
+     width:85%; 
+    margin-left: 5%;
+    margin-right: 5%; 
+    justify-content:space-around;
+} 
+
+em
+{
+    font-weight: bold;
+}
+
+#TLN 
+{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.formation1 , .date  , .formation2 , .exp11  , .exp12 , .reco1 , .reco2 
+{
+width:50%;
+}
+
+
+
+#MTP
+{
+    
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#Paris
+{
+    
+    display: flex;
+    justify-content:space-between;
+}
+
+#SEY
+
+{
+    
+    display: flex;
+    justify-content:space-between;
+}
+
+#reco
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul 
+{
+    list-style-image: "cercle.png" ;   /* border: 1px solid black; */
+}
+
+strong
+{
+    color: #FFC400;
+}
+
+h1
+{
+    font-size: 70px ;
+}
+
+h1 , h2 , ul 
+{
+margin:0;
+}
+
+span
+{
+ font-size: 40px; 
+ font-weight: normal;
+} 
+
+hr
+{
+display: none;
+}
+
+.bord
+{
+    width: 80px;
+    border: 1px solid #FFC400;
+}
+
+h2
+{
+    border-bottom: 1px solid #FFC400;
+}
+
