@@ -28,6 +28,11 @@ body
     
 }
 
+ul, li 
+{
+    margin-left: 4%;
+    padding-left: 4%;
+  }
 
                         /* Partie de gauche */
 
@@ -43,13 +48,16 @@ body
 	background-color: #FFC400;
 }
 
- aside#liseret>div.phot
-{
-  max-width: 100%;
-  height: auto;
-  
-} 
 
+
+/* .image-ronde
+{
+    margin-left:30%;
+    margin-top:10%;
+    width:100%;
+    max-width: 150px;
+    height: auto;
+} */
 .contact , .apropos , .loisirs
 {
     
@@ -58,11 +66,35 @@ body
     background-color: #424242 ;
 }
 
+.phot 
+{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
 
-.description
+.image-ronde
+{
+    object-fit: cover;
+    object-position: center;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+
+}
+
+.description  
 {
 
-    overflow-wrap: break-word;
+    margin-left: 4%;
+    padding-left: 4%;
 }
 
 .ballon , .manette , .golf
@@ -73,7 +105,10 @@ body
 
 ul 
 {
-    list-style-type: none;
+    list-style-type: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    
 }
 
 .picto
@@ -158,7 +193,7 @@ h1
     font-size: 70px ;
 }
 
-h1 , h2 , ul 
+h1 , h2  
 {
 margin:0;
 }
