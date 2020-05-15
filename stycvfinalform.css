@@ -91,18 +91,17 @@ em
 }
 
 
-.contact 
+.contact                  /* NE PAS TOUCHER */
 {
-    /* border: 1px solid black; */ 
+   
     text-align: center; 
-    font-size: 28px;        /* 22 */ 
-    padding-top: 7px;      /* 16 */
-    padding-bottom: 4px;  /* 12 */
+    font-size: 27px;        /* 22 */ 
+    padding-top: 10px;      /* 16 */
+    padding-bottom: 5px;  /* 12 */
     margin:0;
-    /* padding: 0; */
     color: #FFC400 ;
     background-color: #424242 ;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
 }
 
 .inquiry
