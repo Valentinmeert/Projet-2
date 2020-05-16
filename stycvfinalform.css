@@ -107,7 +107,8 @@ em
 .inquiry
 {
     /* border: 1px solid black; */
-    padding-top: 18px;
+    padding-top: 16px;
+    padding-bottom: 13px;
 
 }
 
@@ -115,27 +116,30 @@ em
 {
     /* border: 1px solid black; */
     text-align: center;
-    /* padding-top: 10px;
-    padding-bottom: 8px; */ 
-    height: 30px;
+    font-size: 30px;
+    padding-top: 3px;
+    padding-bottom: 9px;  
+    margin: 0;
     color: #FFC400 ;
     background-color: #424242 ;
 }
 
 .description  
 {
-    margin-left: 23px;
-    padding-left: 23px;
+    padding-left: 47px;
+    text-align: justify;
+    padding-right: 47px;
+    padding-top: 31px;
+    height: 700px;
 }
 
 .hobbies
 {
-    border: 1px solid black;
+    
     text-align: center;
     font-size: 30px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    
+    padding-top: 8px;
+    padding-bottom: 4px;
     color: #FFC400 ;
     background-color: #424242 ;
 }
@@ -145,22 +149,56 @@ em
 {
     padding-bottom: 15px;
 }
+.space1
+{
+    padding-bottom: 16px;    
+}
 
+.space2
+{
+    padding-bottom: 18px;
+}
 
 .ballon , .manette , .golf
 {
     height: 50px;
     width: 50px;
-}
+} 
 
 .picto
 {
-
-    height: 80px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #424242;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 30px; 
+} 
 
+.picto1
+{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #424242;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 62px; 
+} 
+
+.icons
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 31px;
 }
 
                             /* partie de droite */
