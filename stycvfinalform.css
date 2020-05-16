@@ -30,27 +30,14 @@ body
     opacity: 0.7;
     
     
-    
 }
 
-ul, li 
-{
-    margin-left: 23px;
-    padding-left: 23px;
-}
 
-ul 
-{
-    list-style-type: none; 
-    margin-left: 0;
-    padding-left: 0;  
-}
 
-em
-{
-    font-weight: bold;
-    
-}
+
+
+
+
 
                                       /* LISERET  */
 
@@ -65,7 +52,7 @@ em
 	background-color: #FFC400;
 }
 
-.phot                            /* NE PAS TOUCHER */
+.phot                            
 {
   display: block;
   width: 218px;
@@ -91,7 +78,7 @@ em
 }
 
 
-.contact                  /* NE PAS TOUCHER */
+.contact                  
 {
    
     text-align: center; 
@@ -102,6 +89,19 @@ em
     color: #FFC400 ;
     background-color: #424242 ;
     letter-spacing: 1px; 
+}
+
+aside#strip>div.inquiry>ul
+{
+    list-style-type: none; 
+    margin-left: 0;
+    padding-left: 0;  
+}
+
+aside#strip>div.inquiry>ul>li
+{
+    margin-left: 23px;
+    padding-left: 24px;
 }
 
 .inquiry
@@ -149,14 +149,24 @@ em
 {
     padding-bottom: 15px;
 }
-.space1
+ .space1
 {
     padding-bottom: 16px;    
 }
 
 .space2
 {
-    padding-bottom: 18px;
+    padding-bottom: 19px;
+}
+
+.space3
+{
+    padding-bottom: 16px;
+}
+
+.space4
+{
+    padding-bottom: 16px;
 }
 
 .ballon , .manette , .golf
@@ -205,37 +215,247 @@ em
 
 main#contain
 {           
-    display: flex;
+    display: inline-flex;
     flex-direction: column;        
     margin-left: 63px;
     margin-right: 50px; 
-    justify-content:space-around;
+    /* justify-content:space-around; */
 } 
 
-
-.formation1 , .date  , .formation2 , .exp11  , .exp12 , .reco1 , .reco2 
+.title
 {
-    width:50%;
-}
-
-
-
-#MTP, #Paris, #SEY, #reco , #TLN
-{
-    
-    display: flex;
-    justify-content:space-between;
-    
+    /* border: 1px solid black; */
+    font-size: 60px ;
+    padding-top: 104px;
+    font-weight: 100 ;
+    padding-bottom: 4px;
 }
 
 strong
 {
     color: #FFC400;
+    font-weight: 100 ;
 }
 
-h1
+span
 {
-    font-size: 70px ;
+    /* border: 1px solid black; */
+    font-size: 28px; 
+    
+    padding-top: 50px;
+    padding-bottom: 30px;
+} 
+
+hr
+{
+    display: none;
+    
+}
+
+.bord
+{
+    width: 75px;
+    border-bottom: 2px solid #FFC400;
+    
+}
+
+.graduation
+{
+    height: 40px;
+    width: 45px;
+    vertical-align: middle;
+    margin-right: 36px;
+}
+
+main#contain>.first-title
+{
+    padding-top: 131px;
+    padding-bottom: 13px;
+    
+}
+
+h2
+{
+    border-bottom: 2px solid #FFC400;
+    font-size: 28px;
+}
+
+.date>ul
+{
+    padding-top: 25px;
+    padding-inline-start:0px;
+    padding-right: 129px;
+    list-style: none;
+    padding-bottom: 92px;
+}
+
+.formation>ul
+{
+    padding-inline-start:0px;
+    list-style: none;
+    padding-top: 29px;
+}
+
+.town
+{
+    padding-left:33px;
+}
+
+ #TLN
+ {
+     margin-left: 1px;
+ }
+.date2>ul
+{
+    padding-top: 1px; 
+    padding-inline-start:0px;
+    padding-right: 127px;
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+.formation2>ul
+{
+    padding-inline-start:0px;
+    list-style: none;
+    padding-top: 5px;
+}
+
+
+.puce
+{
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    padding-right:18px
+}
+
+.puce2
+{
+    height: 11px;
+    width: 11px;
+    vertical-align: baseline;
+    padding-right:18px;
+    padding-left: 3px
+}
+
+.formation>ul>li
+{
+    padding-bottom: 9px;
+}
+
+.formation2>ul>li
+{
+    padding-bottom: 9px;
+}
+
+
+
+
+
+
+.briefcase
+{
+    height: 40px;
+    width: 45px;
+    vertical-align: middle;
+    margin-right: 36px;
+    margin-left: 2px;
+}
+
+.second-title
+{
+    padding-top:36px;
+    padding-bottom: 11px;
+}
+
+.date3>ul
+{
+    padding-top: 27px;
+    padding-inline-start:0px;
+    padding-right: 42px;
+    list-style: none;
+    padding-bottom: 92px;
+    width: 205px;
+}
+
+.exp>ul
+{
+    padding-inline-start:0px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.date4>ul
+{
+    padding-top: 4px; 
+    padding-inline-start:0px;
+    padding-right: 3px;
+    list-style: none;
+    padding-bottom: 100px;
+    
+    
+}
+
+.exp2>ul
+{
+    padding-inline-start:0px;
+    list-style: none;
+    padding-top: 8px;
+    padding-left: 13px;
+}
+
+#SEY
+{
+    font-size: 16px;
+}
+
+.city
+{
+    padding-left:33px;
+}
+
+.third-title
+{
+    padding-top:204px;
+    padding-bottom: 9px;
+}
+
+.reco1>ul
+{
+    padding-top: 17px;
+    padding-inline-start:0px;
+    padding-right: 178px;
+    list-style: none;
+    padding-bottom: 92px;
+    width: 205px;
+}
+
+.reco2>ul
+{
+    padding-top: 17px;
+    padding-inline-start:0px;
+    padding-right: 42px;
+    list-style: none;
+    padding-bottom: 92px;
+    width: 205px;
+}
+
+.pencil
+{
+    height: 40px;
+    width: 45px;
+    vertical-align: middle;
+    margin-right: 36px;
+    margin-left: 2px;
+}
+
+#MTP, #Paris, #SEY, #reco , #TLN
+{
+    
+    display: flex;
+    
+    
 }
 
 h1 , h2  
@@ -243,38 +463,11 @@ h1 , h2
     margin:0;
 }
 
-span
+em
 {
-    font-size: 40px; 
-    font-weight: normal;
-} 
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
 
-hr
-{
-    display: none;
-}
-
-.bord
-{
-    width: 80px;
-    border: 1px solid #FFC400;
-}
-
-h2
-{
-    border-bottom: 2px solid #FFC400;
-    font-size: larger;
-}
-
-i
-{
-    margin-right: 30px;
-}
-
-.graduation
-{
-    height: 40px;
-    width: 40px;
-    vertical-align: middle;
-    margin-right: 20px;
 }
