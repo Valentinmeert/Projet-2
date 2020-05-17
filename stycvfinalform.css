@@ -5,7 +5,6 @@ html {
 }
 
 body {
-    border: 1px solid grey;
     display: flex;
     margin: 0;
     padding: 0;
