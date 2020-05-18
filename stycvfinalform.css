@@ -200,22 +200,26 @@ hr {
     padding-bottom: 9px;
 }
 
-.date>ul {
-    padding-inline-start: 0;
-    margin: 0 129px 0 0;
-    list-style: none;
-}
-
-.formation>ul {
+.form>ul {
     padding-inline-start: 0;
     list-style: none;
     margin: 0;
 }
 
-.date2>ul {
-    padding-inline-start: 0;
+.firstDate {
+    margin: 0 129px 0 0;
+}
+
+.secondDate {
     margin: 0 125px 0 0;
-    list-style: none;
+}
+
+.thirdDate {
+    margin: 0 37px 0 0;
+}
+
+.fourthDate {
+    margin: 0 14px 0 0;
 }
 
 .puce {
@@ -233,6 +237,12 @@ hr {
     padding-left: 3px
 }
 
+.part>ul {
+    padding-inline-start: 0;
+    list-style: none;
+    margin: 0;
+}
+
 .briefcase {
     height: 40px;
     width: 45px;
@@ -241,38 +251,8 @@ hr {
     margin-left: 2px;
 }
 
-.second-title {
-    padding-top: 36px;
-    padding-bottom: 11px;
-}
-
-.date3>ul {
-    padding-inline-start: 0;
-    margin: 0 37px 0 0;
-    list-style: none;
-}
-
 .help {
     width: 206px;
-}
-
-.exp>ul {
-    padding-inline-start: 0;
-    list-style: none;
-    margin: 0;
-}
-
-.date4>ul {
-    padding-inline-start: 0;
-    margin: 0 14px 0 0;
-    list-style: none;
-}
-
-.exp2>ul {
-    padding-inline-start: 0;
-    list-style: none;
-    padding-top: 8px;
-    padding-left: 13px;
 }
 
 #SEY {
@@ -283,16 +263,12 @@ hr {
     padding-left: 33px;
 }
 
-.reco1>ul {
-    padding-inline-start: 0;
+.firstReco {
     margin: 0 191px 0 0;
-    list-style: none;
 }
 
-.reco2>ul {
-    padding-inline-start: 0;
+.secondReco {
     margin: 0;
-    list-style: none;
 }
 
 .pencil {
@@ -318,3 +294,42 @@ em {
     font-weight: bold;
     font-size: 20px;
 }
+
+@media screen and (max-width: 1084px) {
+    .rightSectionTitle {
+        text-align: center;
+    }
+    h2 {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .formationContent {
+        flex-direction: column;
+    }
+    .date {
+        /* text-align: center; */
+        margin: 0;
+    }
+    .exp,
+    .reco,
+    .form {
+        margin: 20px 0 0 0;
+    }
+    .help {
+        width: auto;
+    }
+    .image-ronde {
+        width: 159px;
+        height: 159px;
+    }
+}
+
+
+/* @media screen and (max-width: 867px) {
+    body {
+        flex-direction: column;
+    }
+    aside#strip {
+        width: 100%;
+    }
+} */
