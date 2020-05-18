@@ -303,6 +303,10 @@ hr {
     margin-left: 2px;
 }
 
+.lane {
+    margin-top: 5px;
+}
+
 h1,
 h2 {
     margin: 0;
