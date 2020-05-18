@@ -141,6 +141,11 @@ main#contain {
     flex-direction: column;
     margin-left: 63px;
     margin-right: 50px;
+    padding: 78px 0;
+}
+
+.CVTitle {
+    margin: 57px 0 51px 0;
 }
 
 .firstname {
@@ -155,15 +160,12 @@ main#contain {
     margin-left: 30px;
 }
 
-.title {
-    padding-top: 104px;
+.myname {
     padding-bottom: 4px;
 }
 
 span {
     font-size: 28px;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 hr {
@@ -175,6 +177,10 @@ hr {
     border-bottom: 2px solid #FFC400;
 }
 
+.rightSectionTitle {
+    margin-top: 50px;
+}
+
 .graduation {
     height: 40px;
     width: 45px;
@@ -182,57 +188,41 @@ hr {
     margin-right: 36px;
 }
 
-main#contain>.first-title {
-    padding-top: 131px;
-    padding-bottom: 13px;
+.formationContent {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 52px;
 }
 
-h2 {
+.title {
     border-bottom: 2px solid #FFC400;
     font-size: 28px;
+    padding-bottom: 9px;
 }
 
 .date>ul {
-    padding-top: 25px;
     padding-inline-start: 0;
-    padding-right: 129px;
+    margin: 0 129px 0 0;
     list-style: none;
-    padding-bottom: 92px;
 }
 
 .formation>ul {
     padding-inline-start: 0;
     list-style: none;
-    padding-top: 29px;
-}
-
-.town {
-    padding-left: 33px;
-}
-
-#TLN {
-    margin-left: 1px;
+    margin: 0;
 }
 
 .date2>ul {
-    padding-top: 1px;
     padding-inline-start: 0;
-    padding-right: 127px;
+    margin: 0 125px 0 0;
     list-style: none;
-    padding-bottom: 100px;
-}
-
-.formation2>ul {
-    padding-inline-start: 0;
-    list-style: none;
-    padding-top: 5px;
 }
 
 .puce {
     height: 15px;
     width: 15px;
     vertical-align: middle;
-    padding-right: 18px
+    padding-right: 18px;
 }
 
 .puce2 {
@@ -241,14 +231,6 @@ h2 {
     vertical-align: baseline;
     padding-right: 18px;
     padding-left: 3px
-}
-
-.formation>ul>li {
-    padding-bottom: 9px;
-}
-
-.formation2>ul>li {
-    padding-bottom: 9px;
 }
 
 .briefcase {
@@ -265,26 +247,25 @@ h2 {
 }
 
 .date3>ul {
-    padding-top: 27px;
     padding-inline-start: 0;
-    padding-right: 42px;
+    margin: 0 37px 0 0;
     list-style: none;
-    padding-bottom: 92px;
-    width: 205px;
+}
+
+.help {
+    width: 206px;
 }
 
 .exp>ul {
     padding-inline-start: 0;
     list-style: none;
-    padding-top: 30px;
+    margin: 0;
 }
 
 .date4>ul {
-    padding-top: 4px;
     padding-inline-start: 0;
-    padding-right: 3px;
+    margin: 0 14px 0 0;
     list-style: none;
-    padding-bottom: 100px;
 }
 
 .exp2>ul {
@@ -302,27 +283,16 @@ h2 {
     padding-left: 33px;
 }
 
-.third-title {
-    padding-top: 204px;
-    padding-bottom: 9px;
-}
-
 .reco1>ul {
-    padding-top: 17px;
     padding-inline-start: 0;
-    padding-right: 178px;
+    margin: 0 191px 0 0;
     list-style: none;
-    padding-bottom: 92px;
-    width: 205px;
 }
 
 .reco2>ul {
-    padding-top: 17px;
     padding-inline-start: 0;
-    padding-right: 42px;
+    margin: 0;
     list-style: none;
-    padding-bottom: 92px;
-    width: 205px;
 }
 
 .pencil {
@@ -331,14 +301,6 @@ h2 {
     vertical-align: middle;
     margin-right: 36px;
     margin-left: 2px;
-}
-
-#MTP,
-#Paris,
-#SEY,
-#reco,
-#TLN {
-    display: flex;
 }
 
 h1,
