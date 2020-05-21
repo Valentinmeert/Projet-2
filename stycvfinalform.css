@@ -1,431 +1,431 @@
 /* GENERAL */
 
 html {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 body {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    margin-top: 0;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 17px;
-    opacity: .7;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 17px;
+  opacity: .7;
 }
 
 
 /* LISERET  */
 
 aside#strip {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 383px;
-    background-color: #FFC400;
-    align-items: stretch;
-    padding: 23px 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 383px;
+  background-color: #FFC400;
+  align-items: stretch;
+  padding: 23px 0;
 }
 
 .desc {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .image-ronde {
-    object-fit: cover;
-    object-position: center;
-    width: 218px;
-    height: 218px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    box-shadow: 0 0 17px -4px #735F5D;
+  object-fit: cover;
+  object-position: center;
+  width: 218px;
+  height: 218px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 17px -4px #735F5D;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .sectionTitle {
-    text-align: center;
-    font-size: 27px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin: 0;
-    color: #FFC400;
-    background-color: #424242;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
+  text-align: center;
+  font-size: 27px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0;
+  color: #FFC400;
+  background-color: #424242;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
 }
 
 aside#strip>div.contact>ul.sectionContent {
-    list-style-type: none;
-    margin: 0;
+  list-style-type: none;
+  margin: 0;
 }
 
 div.desc.about>div.sectionContent {
-    text-align: justify;
+  text-align: justify;
 }
 
 .sectionContent {
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .mean {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .about {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .aboutTitle {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 3px;
-    padding-bottom: 9px;
-    margin: 0;
-    color: #FFC400;
-    background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3px;
+  padding-bottom: 9px;
+  margin: 0;
+  color: #FFC400;
+  background-color: #424242;
 }
 
 .aboutContent {
-    padding-left: 47px;
-    text-align: justify;
-    padding-right: 47px;
-    padding-top: 31px;
-    height: 700px;
+  padding-left: 47px;
+  text-align: justify;
+  padding-right: 47px;
+  padding-top: 31px;
+  height: 700px;
 }
 
 .hobbiesTitle {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 8px;
-    padding-bottom: 4px;
-    color: #FFC400;
-    background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  color: #FFC400;
+  background-color: #424242;
 }
 
 .ballon,
 .manette,
 .golf {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .picto {
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid #424242;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #424242;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .hobbiesIcons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
 /* partie de droite */
 
 main#contain {
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 63px;
-    margin-right: 63px;
-    padding: 78px 0;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 63px;
+  margin-right: 63px;
+  padding: 78px 0;
 }
 
 .CVTitle {
-    margin: 57px 0 51px 0;
+  margin: 57px 0 51px 0;
 }
 
 .firstname {
-    font-weight: 400;
-    color: #FFC400;
+  font-weight: 400;
+  color: #FFC400;
 }
 
 .surname {
-    font-weight: 100;
-    margin-left: 30px;
+  font-weight: 100;
+  margin-left: 30px;
 }
 
 .myname {
-    padding-bottom: 4px;
-    font-size: 60px;
+  padding-bottom: 4px;
+  font-size: 60px;
 }
 
 .subtitle {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 hr {
-    display: none;
+  display: none;
 }
 
 .bord {
-    width: 75px;
-    border-bottom: 2px solid #FFC400;
+  width: 75px;
+  border-bottom: 2px solid #FFC400;
 }
 
 .rightSectionTitle {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .graduation {
-    height: 40px;
-    width: 45px;
-    vertical-align: middle;
-    margin-right: 36px;
+  height: 40px;
+  width: 45px;
+  vertical-align: middle;
+  margin-right: 36px;
 }
 
 .formationContent {
-    display: flex;
-    margin-left: 1px;
-    margin-top: 52px;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 52px;
 }
 
 .title {
-    border-bottom: 2px solid #FFC400;
-    font-size: 28px;
-    padding-bottom: 9px;
+  border-bottom: 2px solid #FFC400;
+  font-size: 28px;
+  padding-bottom: 9px;
 }
 
 .form>ul {
-    padding-inline-start: 0;
-    list-style: none;
-    margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+  margin: 0;
 }
 
 .firstDate {
-    margin: 0 129px 0 0;
+  margin: 0 129px 0 0;
 }
 
 .secondDate {
-    margin: 0 125px 0 0;
+  margin: 0 125px 0 0;
 }
 
 .thirdDate {
-    margin: 0 37px 0 0;
+  margin: 0 37px 0 0;
 }
 
 .fourthDate {
-    margin: 0 14px 0 0;
+  margin: 0 14px 0 0;
 }
 
 .puce {
-    height: 15px;
-    width: 15px;
-    vertical-align: middle;
-    padding-right: 18px;
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+  padding-right: 18px;
 }
 
 .puce2 {
-    height: 11px;
-    width: 11px;
-    vertical-align: baseline;
-    padding-right: 18px;
-    padding-left: 3px
+  height: 11px;
+  width: 11px;
+  vertical-align: baseline;
+  padding-right: 18px;
+  padding-left: 3px
 }
 
 .part>ul {
-    padding-inline-start: 0;
-    list-style: none;
-    margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+  margin: 0;
 }
 
 .briefcase {
-    height: 40px;
-    width: 45px;
-    vertical-align: middle;
-    margin-right: 36px;
-    margin-left: 2px;
+  height: 40px;
+  width: 45px;
+  vertical-align: middle;
+  margin-right: 36px;
+  margin-left: 2px;
 }
 
 .help {
-    width: 206px;
+  width: 206px;
 }
 
 .city {
-    padding-left: 33px;
+  padding-left: 33px;
 }
 
 .firstReco {
-    margin: 0 191px 0 0;
+  margin: 0 191px 0 0;
 }
 
 .secondReco {
-    margin: 0;
+  margin: 0;
 }
 
 .pencil {
-    height: 40px;
-    width: 45px;
-    vertical-align: middle;
-    margin-right: 36px;
-    margin-left: 2px;
+  height: 40px;
+  width: 45px;
+  vertical-align: middle;
+  margin-right: 36px;
+  margin-left: 2px;
 }
 
 .lane {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 h1,
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 em {
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1024px) {
-    .rightSectionTitle {
-        text-align: center;
-    }
-    h2 {
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    .formationContent {
-        flex-direction: column;
-    }
-    .date {
-        margin: 0;
-    }
-    .exp,
-    .form {
-        margin: 20px 0 0 0;
-    }
-    .firstReco {
-        margin: 0;
-    }
-    .secondReco {
-        margin: 30px 0 0 0;
-    }
-    .help {
-        width: auto;
-    }
-    .image-ronde {
-        width: 159px;
-        height: 159px;
-    }
-    .CVTitle {
-        text-align: center;
-    }
-    .subtitle {
-        padding: 0 0 9px 0;
-        border-bottom: 2px solid #FFC400;
-    }
-    .bord {
-        display: none;
-    }
-    .formation {
-        text-align: center;
-    }
-    .icon {
-        display: none;
-    }
+  .rightSectionTitle {
+    text-align: center;
+  }
+  h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .formationContent {
+    flex-direction: column;
+  }
+  .date {
+    margin: 0;
+  }
+  .exp,
+  .form {
+    margin: 20px 0 0 0;
+  }
+  .firstReco {
+    margin: 0;
+  }
+  .secondReco {
+    margin: 30px 0 0 0;
+  }
+  .help {
+    width: auto;
+  }
+  .image-ronde {
+    width: 159px;
+    height: 159px;
+  }
+  .CVTitle {
+    text-align: center;
+  }
+  .subtitle {
+    padding: 0 0 9px 0;
+    border-bottom: 2px solid #FFC400;
+  }
+  .bord {
+    display: none;
+  }
+  .formation {
+    text-align: center;
+  }
+  .icon {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .year {
-        margin-left: -29px;
-    }
-    .city {
-        padding: 0;
-    }
-    body {
-        flex-direction: column;
-        word-break: normal;
-    }
-    aside#strip {
-        width: 100%;
-        text-align: center;
-    }
+  .year {
+    margin-left: -29px;
+  }
+  .city {
+    padding: 0;
+  }
+  body {
+    flex-direction: column;
+    word-break: normal;
+  }
+  aside#strip {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    main#contain {
-        margin: 0 34px;
-    }
-    .myname {
-        font-size: 30px;
-    }
-    .subtitle {
-        font-size: 19px;
-    }
-    .title {
-        font-size: 18px;
-    }
-    em {
-        font-size: 16px;
-    }
-    .formationContent {
-        font-size: 17px;
-    }
+  main#contain {
+    margin: 0 34px;
+  }
+  .myname {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 19px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  em {
+    font-size: 16px;
+  }
+  .formationContent {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    body {
-        font-size: 14px;
-    }
-    .sectionTitle {
-        font-size: 24px;
-    }
-    .puce {
-        height: 11px;
-        width: 11px;
-    }
-    .myname {
-        font-size: 32px;
-    }
-    .subtitle {
-        font-size: 22px;
-    }
-    .title {
-        font-size: 17px;
-    }
-    em {
-        font-size: 14px;
-    }
-    .formationContent {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
+  .sectionTitle {
+    font-size: 24px;
+  }
+  .puce {
+    height: 11px;
+    width: 11px;
+  }
+  .myname {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 22px;
+  }
+  .title {
+    font-size: 17px;
+  }
+  em {
+    font-size: 14px;
+  }
+  .formationContent {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    main#contain {
-        margin: 0 23px;
-    }
-    .puce {
-        height: 11px;
-        width: 11px;
-    }
-    .myname {
-        font-size: 30px;
-    }
-    .subtitle {
-        font-size: 20px;
-    }
-    .title {
-        font-size: 16px;
-    }
-    .formationContent {
-        font-size: 13px;
-    }
-    em {
-        font-size: 13px;
-    }
+  main#contain {
+    margin: 0 23px;
+  }
+  .puce {
+    height: 11px;
+    width: 11px;
+  }
+  .myname {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .formationContent {
+    font-size: 13px;
+  }
+  em {
+    font-size: 13px;
+  }
 }
