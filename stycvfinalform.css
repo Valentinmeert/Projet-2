@@ -302,7 +302,6 @@ em {
         flex-direction: column;
     }
     .date {
-        /* text-align: center; */
         margin: 0;
     }
     .exp,
