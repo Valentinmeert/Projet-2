@@ -206,7 +206,7 @@ hr {
 }
 
 .firstDate {
-  margin: 0 129px 0 0;
+  margin: 0 123px 0 0;
 }
 
 .secondDate {
@@ -218,7 +218,7 @@ hr {
 }
 
 .fourthDate {
-  margin: 0 14px 0 0;
+  margin: 0 17px 0 0;
 }
 
 .puce {
@@ -294,6 +294,7 @@ em {
   .rightSectionTitle {
     text-align: center;
   }
+  
   h2 {
     margin-left: 20%;
     margin-right: 20%;
