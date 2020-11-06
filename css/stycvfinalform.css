@@ -14,7 +14,6 @@ body {
   opacity: .7;
 }
 
-
 /* LISERET  */
 
 aside#strip {
@@ -22,7 +21,7 @@ aside#strip {
   flex-direction: column;
   justify-content: flex-start;
   width: 383px;
-  background-color: #FFC400;
+  background-color: #ffc400;
   align-items: stretch;
   padding: 23px 0;
 }
@@ -39,7 +38,7 @@ aside#strip {
   border-radius: 50%;
   margin: 0 auto;
   display: block;
-  box-shadow: 0 0 17px -4px #735F5D;
+  box-shadow: 0 0 17px -4px #735f5d;
 }
 
 a {
@@ -53,7 +52,7 @@ a {
   padding-top: 10px;
   padding-bottom: 5px;
   margin: 0;
-  color: #FFC400;
+  color: #ffc400;
   background-color: #424242;
   letter-spacing: 1px;
   margin-bottom: 40px;
@@ -108,9 +107,7 @@ div.desc.about>div.sectionContent {
   background-color: #424242;
 }
 
-.ballon,
-.manette,
-.golf {
+.ballon, .manette, .golf {
   height: 50px;
   width: 50px;
 }
@@ -132,7 +129,6 @@ div.desc.about>div.sectionContent {
   align-items: center;
   justify-content: space-between;
 }
-
 
 /* partie de droite */
 
@@ -173,7 +169,7 @@ hr {
 
 .bord {
   width: 75px;
-  border-bottom: 2px solid #FFC400;
+  border-bottom: 2px solid #ffc400;
 }
 
 .rightSectionTitle {
@@ -278,8 +274,7 @@ hr {
   margin-top: 5px;
 }
 
-h1,
-h2 {
+h1, h2 {
   margin: 0;
 }
 
@@ -294,7 +289,6 @@ em {
   .rightSectionTitle {
     text-align: center;
   }
-  
   h2 {
     margin-left: 20%;
     margin-right: 20%;
@@ -305,8 +299,7 @@ em {
   .date {
     margin: 0;
   }
-  .exp,
-  .form {
+  .exp, .form {
     margin: 20px 0 0 0;
   }
   .firstReco {
